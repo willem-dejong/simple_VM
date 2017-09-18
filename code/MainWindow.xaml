@@ -1,0 +1,12 @@
+﻿<Window x:Class="VM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:custom="clr-namespace:VM"
+        Title="MainWindow" Height="746" Width="1113">
+    <Grid>
+        <custom:Control x:Name="machine" Height="566" Width="1000" Margin="0,60,0,0"></custom:Control>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="148,11,0,0" Name="pathboxtocomp" VerticalAlignment="Top" Width="119" />
+        <Label Content="path to file to assemble" Height="32" HorizontalAlignment="Left" Margin="12,11,0,0" Name="label1" VerticalAlignment="Top" Width="138" />
+        <Button Content="assemble" Height="23" HorizontalAlignment="Left" Margin="273,10,0,0" Name="compb" VerticalAlignment="Top" Width="70" Click="compb_Click" />
+    </Grid>
+</Window>
